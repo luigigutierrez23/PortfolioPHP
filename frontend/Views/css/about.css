@@ -1,0 +1,274 @@
+/* ----------------------------------------------------------------------
+                    ABOUT SECTION
+----------------------------------------------------------------------- */
+
+/* ----------------------------------------------
+                    ABOUT 
+---------------------------------------------- */
+
+/*=============================================
+ABOUT INFO 
+=============================================*/
+
+.about-info {
+    padding-left: 50px;
+}
+
+.titulo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    visibility: visible;
+    animation-duration: 0.8s; 
+    animation-delay: 0.3s; 
+    animation-name: fadeInUp;
+}
+
+.descripcion {
+    margin-bottom: 30px;
+    visibility: visible;
+    animation-duration: 0.8s; 
+    animation-delay: 0.3s; 
+    animation-name: fadeInUp;
+}
+
+.skills {
+    word-break: break-all;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    visibility: visible;
+    animation-duration: 0.8s; 
+    animation-delay: 0.3s; 
+    animation-name: fadeInUp;
+}
+
+.skills ul li {
+    margin: 0px 6px;
+    margin-bottom: 0px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 4px 0px;
+    display: inline-block;
+}
+
+.listaSkills span {
+    border: 1px solid #2196F3;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.skills ul li span:hover {
+    background-color: #0bceaf;
+}
+
+.btnDescargarCV{
+    margin-top: 15px;
+}
+
+.btnDescargarCV .fa {
+    margin-left: 10px;
+}
+
+
+/*=============================================
+ABOUT IMAGEN
+=============================================*/
+
+.about-img{
+    
+    visibility: visible;
+    animation-duration: 0.8s; 
+    animation-delay: 0.3s; 
+    animation-name: fadeInUp;
+}
+.imagen{
+
+    max-width: 100%;
+    height: auto;
+}
+
+
+ /* ----------------------------------------------------------------------
+                SKILLS SECTION
+----------------------------------------------------------------------- */
+.Skill .section-separator{
+    
+    padding-bottom: 20px;
+    padding-top:0px;
+}
+
+.Skill .mh-professional-skill {
+    padding-right: 60px;
+}
+
+.Skill .mh-professional-skill h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.candidatos .parcial {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.candidatos .parcial .info {
+    position: relative;
+}
+
+.candidatos .parcial .info .name {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.candidatos .parcial .info .porcentaje-num {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.candidatos .parcial .progressBar {
+    position: relative;
+    width: 100%;
+    height: 7px;
+      margin: -75px 0 25px;
+    border-radius: 10px;
+    background: rgba(199, 198, 198, 0.6);
+}
+
+.candidatos .parcial .porcentaje {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #2196F3;
+    /* Ckeck this  */
+    transition: 3s all;
+    animation-duration: 3s;
+    animation-name: animationProgress;
+}
+
+/*=============================================
+CIRCLES
+=============================================*/
+
+.mh-professional-skills {
+    padding-left: 20%;
+}
+
+.mh-professional-skills h3 {
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+.mh-professional-progress li {
+    display: inline-block;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    float: none;
+    width: 48%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.mh-progress.mh-progress-circle {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.mh-progress {
+    margin-bottom: 10px;
+    font: 500 1.1428571429em/1 Cinzel, cursive;
+}
+
+
+.dark-vertion .mh-progress path:nth-child(1) {
+    stroke: rgba(255, 255, 255, 0.5);
+}
+
+.mh-progress path:nth-child(2) {
+    stroke: #2196F3;
+}
+
+.mh-progress .progressbar-text {
+    color: inherit !important;
+}
+
+/* ----------------------------------------------------------
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+--------------------------------------------------------------*/
+
+@media (max-width:991px){
+    
+    .about .section-separator{
+
+        padding: 60px 0;
+    }
+    
+    .Skill .section-separator{
+
+        padding: 0px 0;
+    }
+
+    .mh-professional-skills {
+        padding:5px;
+    }
+
+    .Skill .mh-professional-skill {
+        padding: 5px;
+    }
+
+    .candidatos .parcial .progressBar {
+      margin: 23px 0 25px;
+    }
+  
+}
+
+/* ----------------------------------------------------------
+MOVIL (XS revisamos en 320px)
+--------------------------------------------------------------*/
+
+@media (max-width:767px){
+
+    .about-info {
+        padding: 15px;
+    }
+
+    .about-info a{
+        display: block;
+    }
+
+    .titulo {
+       text-align: center;
+    }
+
+    .descripcion {
+       text-align: center;
+    }
+
+    .skills ul{
+        text-align: center;
+    }
+
+    .skills ul li {
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+}
+

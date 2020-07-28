@@ -1,0 +1,266 @@
+/* ----------------------------------------------------------------------
+                    FOOTER SECTION
+----------------------------------------------------------------------- */
+    
+.map-image {
+    background-image: url(../img/plantilla/map-color-overlay.png);
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.section-title {
+    text-align: center;
+}
+
+/*=============================================
+INFO CONTACTO
+=============================================*/
+
+.footer-address {
+    margin-bottom: 20px;
+}
+
+.footer-3 .footer-address .address-footer-item {
+    padding: 5px 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer-address .address-footer-item {
+    -webkit-box-shadow: -1rem 0 3rem #000;
+    box-shadow: -1rem 0 3rem #000;
+}
+
+.footer-3 .footer-address .address-footer-item h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.address-footer-item a {
+    color: #fff;
+}
+
+.address-footer-item a:hover {
+    color: #2196F3;
+}
+
+.footer-address .address-footer-item .each-icon {    
+    padding: 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer-address .address-footer-item .each-icon .fa {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+    border-radius: 50%;
+    line-height: 100px;
+    font-size: 25px;
+    border-color: #2196F3;
+     transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.footer-address .address-footer-item .each-icon .fa:hover {
+    color:#2196F3;
+    border-color: #fff;
+}
+
+.footer-3 .footer-address .address-footer-item .each-info {
+    margin-top: 15px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.media{
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+/*=============================================
+CONTACT FORM
+=============================================*/
+
+#msgSubmit {
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.footer .form-control {
+    padding: 20px;
+    -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+
+.form-control {
+    -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.16), 0 0px 2px 0 rgba(255, 255, 255, 0.12);
+    -moz-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.16), 0 0px 2px 0 rgba(255, 255, 255, 0.12);
+    box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.16), 0 0px 2px 0 rgba(255, 255, 255, 0.12);
+    background-color: transparent;
+    border-color: transparent;
+    margin-bottom: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+
+.contact-subject, .contact-message, .contact-name{
+    color:#fff !important;
+}
+
+.footer .contact-message {
+    -webkit-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
+    -moz-box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0px 2px 0 rgba(255, 255, 255, 0.8), 0 0px 1px 1px rgba(255, 255, 255, 0.8);
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    outline: 0;
+}
+
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+}
+    
+.btnEnviar{
+    margin-top: 20px;
+}
+
+/*=============================================
+COPYRIGHT AND SOCIAL MEDIA
+=============================================*/
+
+.copyright {
+    padding: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.copyright .copy-titulo{
+    text-align: center;
+    font-size: 16px;
+}
+
+.copyright .menu-foot{
+    margin-bottom: 10px; 
+}
+
+.copyright ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.copyright ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-weight: italic;
+    font-size: 18px;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.copyright ul li a:hover{
+    color:#2196F3;
+}
+
+.copyright .media-foot{
+    margin-bottom: 10px;
+}
+
+.copyright p, .copyright p strong{
+   font-weight: 400;
+}
+
+.social-icon li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-icon .fa{
+    
+    font-weight: 100;
+    font-size: 17px;
+    color: #fff;
+    transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.social-icon .fa:hover{
+    font-size: 19px;
+    color: #2196F3;
+}
+
+
+/* ----------------------------------------------------------
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+--------------------------------------------------------------*/
+
+@media (max-width:991px){
+    
+    .footer-3 .footer-address .address-footer-item {
+        padding: 5px 20px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+}
+
+/* ----------------------------------------------------------
+MOVIL (XS revisamos en 320px)
+--------------------------------------------------------------*/
+
+@media (max-width: 420px){
+
+
+    .footer-address .address-footer-item .each-icon .fa {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 20px;
+    }
+
+    .footer-address .address-footer-item .each-icon {    
+        text-align: center;
+         margin-top: 20px;
+    }
+
+    .footer-3 .footer-address .address-footer-item h4 {
+        margin-bottom:5px;
+        margin-top: 5px;
+        font-size: 18px;
+    }
+
+    .footer-3 .footer-address .address-footer-item a {
+        font-size: 12px;
+    }
+
+    .footer-3 .footer-address .address-footer-item .each-info {
+        padding-left: 10px;
+    }
+}
+

@@ -1,0 +1,72 @@
+
+.enConstruccion .section-separator{   
+    padding-bottom: 20px;
+    padding-top:6em;
+}
+
+.enConstruccion .header-background img{
+    height: 100vh;
+}
+
+.enConstruccion .section-title .tittle-service{  
+    color:#337ab7;;
+    font-size: 3em;
+    margin-bottom: .5em;
+    text-transform: uppercase;
+    letter-spacing:4px;
+}
+
+ /*--timer--*/
+
+.banner-info p{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 1.2em;
+    font-weight: 100;
+}
+
+.items-timer .clock{
+    display: flex;
+    justify-content: center;
+}
+
+.timer {
+	font-size: 3em;
+    vertical-align: top;
+    color: #fff; 
+    font-weight: 700;
+}
+
+.text {
+    font-size: .9em;
+    color: #fff;
+    margin-top: 0.5em;
+    text-align: center;   
+    letter-spacing: 2px;
+}
+
+.clock .column {
+    padding: 48px 0;
+    display:  inline-block;
+    margin: 0 20px;
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.28);
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.enConstruccion .social{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.enConstruccion .social a{
+     text-align: center;
+}

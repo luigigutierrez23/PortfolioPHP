@@ -1,0 +1,327 @@
+/* ----------------------------------------------------------
+                GENERAL SETTINGS
+--------------------------------------------------------------*/
+*{
+    margin:0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: "roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+ul, ol{
+    padding:0px;
+}
+
+a:hover{
+    text-decoration: none;
+     transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+
+.black-bg {
+    background-color: #100e17;
+    color: #fff;
+}
+
+.img-color-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+}
+
+.img-color-overlay-2 {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.btnDefault {
+    color: #fff;
+    background-color: #2196F3;
+    padding: 8px 30px;
+    font-weight: italic;
+    font-size: 15px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    visibility: visible;
+    animation-duration: 0.8s; 
+    animation-delay: 0.3s; 
+    animation-name: fadeInUp;
+}
+
+.btnDefault:hover {
+    
+    background-color: #fff;
+    color: #2196F3;
+    transition: color 0.7s ease;
+}
+
+/*=============================================
+LOADER 
+=============================================*/
+
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+}
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #2196F3;
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+
+    z-index: 1001;
+}
+
+    #loader:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        right: 5px;
+        bottom: 5px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #fff;
+
+        -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+        animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    #loader:after {
+        content: "";
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        right: 15px;
+        bottom: 15px;
+        border-radius: 50%;
+        border: 3px solid transparent;
+        border-top-color: #2196F3;
+
+        -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+          animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+    }
+
+    @-webkit-keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+    @keyframes spin {
+        0%   { 
+            -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(0deg);  /* IE 9 */
+            transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+        100% {
+            -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: rotate(360deg);  /* IE 9 */
+            transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+        }
+    }
+
+    .loaded #loader {
+        opacity: 0;
+        -webkit-transition: all 0.3s ease-out;  
+                transition: all 0.3s ease-out;
+    }
+    .loaded #loader-wrapper {
+        visibility: hidden;
+
+        -webkit-transform: translateY(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
+            -ms-transform: translateY(-100%);  /* IE 9 */
+                transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
+
+        -webkit-transition: all 0.3s 1s ease-out;  
+                transition: all 0.3s 1s ease-out;
+    }
+/*=============================================
+REDES SOCIALES
+=============================================*/
+
+/*FACEBOOK*/
+
+.facebookBlanco{
+    color:white;
+}
+
+.facebookNegro{
+    color:black;
+}
+
+.facebookColor{
+    color:white;
+    background:#46639f;
+}
+
+/*GITHUB*/
+
+.githubColor{
+    color:white;
+    background:#d6513e;
+}
+
+.githubBlanco{
+    color:white;
+}
+
+.githubNegro{
+    color:black;
+}
+
+/*TWITTER*/
+
+.twitterColor{
+    color:white;
+    background:#0ab2e6;
+}
+
+.twitterBlanco{
+    color:white;
+}
+
+.twitterNegro{
+    color:black;
+}
+
+/*GOOGLE PLUS*/
+
+.googleColor{
+    color:white;
+    background:#d71617;
+}
+
+.googleBlanco{
+    color:white;
+}
+
+.googleNegro{
+    color:black;
+}
+
+/*INSTAGRAM*/
+
+.instagramColor{
+    color:white;
+    background:linear-gradient(45deg, #fca925, #ee1d5f,  #6350a2);
+
+}
+
+.instagramBlanco{
+    color:white;
+}
+
+.instagramNegro{
+    color:black;
+}
+
+/* ----------------------------------------------------------
+               ERROR 404
+--------------------------------------------------------------*/
+
+.error404{
+    color:#fff;
+}
+
+/* ----------------------------------------------------------
+    ESCRITORIO GRANDE (LG revisamos en 1366px en adelante)
+--------------------------------------------------------------*/
+
+@media (min-width:1200px){
+
+    .col-lg-0{
+        display: none;
+    }
+
+    .error404 h1{
+        font-size:300px;
+        text-shadow:8px 8px 1px #dadada;
+    }
+
+}
+
+/* ----------------------------------------------------------
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+--------------------------------------------------------------*/
+
+@media (max-width:1199px) and (min-width:992px){
+
+    .col-md-0{
+        display: none;
+    }
+
+    .error404 h1{
+        font-size:200px;
+        text-shadow:6px 6px 1px #dadada;
+    }
+
+}
+
+/* ----------------------------------------------------------
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+--------------------------------------------------------------*/
+
+@media (max-width:991px) and (min-width:768px){
+
+    .col-sm-0{
+        display: none;
+    }
+
+    .error404 h1{
+        font-size:150px;
+        text-shadow:4px 4px 1px #dadada;
+    }
+
+}
+
+/* ----------------------------------------------------------
+MOVIL (XS revisamos en 320px)
+--------------------------------------------------------------*/
+
+@media (max-width:767px){
+
+    .col-xs-0{
+        display: none;
+    }
+
+    .error404 h1{
+        font-size:75px;
+        text-shadow:2px 2px 1px #dadada;
+    }
+
+}

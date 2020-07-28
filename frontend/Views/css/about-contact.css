@@ -1,0 +1,52 @@
+/* ----------------------------------------------------------------------
+                  IMG CONTACT SECTION
+----------------------------------------------------------------------- */
+.mh-quates .each-quates {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.mh-quates .each-quates p {
+    margin-top: 20px;
+}
+
+.home-2-img {
+        background-image: url(../img/plantilla/contact-about.jpeg);
+}
+
+.btnContactame{
+    margin-top: 20px;
+}
+
+/* ----------------------------------------------------------
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+--------------------------------------------------------------*/
+
+@media (max-width:991px) and (min-width:768px){
+
+
+}
+
+/* ----------------------------------------------------------
+MOVIL (XS revisamos en 320px)
+--------------------------------------------------------------*/
+
+@media (max-width:767px){
+
+    .mh-quates .section-separator {
+        padding: 30px 0;
+    }
+
+    .mh-quates .each-quates h3 {
+       text-align: center;
+    }
+    .mh-quates .each-quates p {
+       text-align: center;
+    }
+
+    .btnContactame {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
